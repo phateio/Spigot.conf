@@ -1,0 +1,137 @@
+# This is the main configuration file for Paper.
+# As you can see, there's tons to configure. Some options may impact gameplay, so use
+# with caution, and make sure you know what each option does before configuring.
+# 
+# If you need help with the configuration or have any questions related to Paper,
+# join us in our Discord or IRC channel.
+# 
+# Discord: https://paperdiscord.emc.gs
+# IRC: #paper @ irc.spi.gt ( http://irc.spi.gt/iris/?channels=paper )
+# Website: https://papermc.io/ 
+# Docs: https://paper.readthedocs.org/ 
+
+config-version: 18
+messages: 
+  kick: 
+    authentication-servers-down: ""
+    connection-throttle: "Connection throttled! Please wait before reconnecting."
+    flying-player: "Flying is not enabled on this server"
+    flying-vehicle: "Flying is not enabled on this server"
+  no-permission: "&cI'm sorry, but you do not have permission to perform this command. Please contact the server administrators if you believe that this is in error."
+settings: 
+  book-size: 
+    page-max: 2560
+    total-multiplier: 0.98
+  bungee-online-mode: true
+  enable-player-collisions: true
+  incoming-packet-spam-threshold: 300
+  load-permissions-yml-before-plugins: true
+  region-file-cache-size: 256
+  save-empty-scoreboard-teams: false
+  save-player-data: true
+  spam-limiter: 
+    tab-spam-increment: 1
+    tab-spam-limit: 500
+  suggest-player-names-when-null-tab-completions: true
+  use-alternative-luck-formula: false
+  use-versioned-world: false
+  velocity-support: 
+    enabled: false
+    online-mode: false
+    secret: ""
+  watchdog: 
+    early-warning-delay: 10000
+    early-warning-every: 5000
+timings: 
+  enabled: true
+  hidden-config-entries: 
+    - database
+    - settings.bungeecord-addresses
+  history-interval: 300
+  history-length: 3600
+  server-name: "Unknown Server"
+  server-name-privacy: false
+  verbose: true
+verbose: false
+world-settings: 
+  default: 
+    all-chunks-are-slime-chunks: false
+    allow-leashing-undead-horse: false
+    allow-non-player-entities-on-scoreboards: false
+    armor-stands-do-collision-entity-lookups: true
+    armor-stands-tick: true
+    baby-zombie-movement-speed: 0.5
+    bed-search-radius: 1
+    container-update-tick-rate: 1
+    creative-arrow-despawn-rate: -1
+    despawn-ranges: 
+      hard: 128
+      soft: 32
+    disable-creeper-lingering-effect: false
+    disable-explosion-knockback: false
+    disable-ice-and-snow: false
+    disable-teleportation-suffocation-check: false
+    disable-thunder: false
+    duplicate-uuid-resolver: saferegen
+    duplicate-uuid-saferegen-delete-range: 32
+    enable-treasure-maps: true
+    experience-merge-max-value: -1
+    falling-block-height-nerf: 0
+    filter-nbt-data-from-spawn-eggs-and-related: true
+    fire-physics-event-for-redstone: false
+    fishing-time-range: 
+      MaximumTicks: 600
+      MinimumTicks: 100
+    fixed-chunk-inhabited-time: -1
+    frosted-ice: 
+      delay: 
+        max: 40
+        min: 20
+      enabled: true
+    game-mechanics: 
+      disable-chest-cat-detection: false
+      disable-end-credits: false
+      disable-player-crits: false
+      disable-sprint-interruption-on-attack: false
+      disable-unloaded-chunk-enderpearl-exploit: true
+      scan-for-legacy-ender-dragon: true
+      shield-blocking-delay: 5
+    grass-spread-tick-rate: 1
+    hopper: 
+      cooldown-when-full: true
+      disable-move-event: false
+    keep-spawn-loaded: true
+    keep-spawn-loaded-range: 3
+    lightning-strike-distance-limit: 
+      flash: -1
+      impact-sound: -1
+      sound: -1
+    lootables: 
+      auto-replenish: false
+      max-refills: -1
+      refresh-max: 2d
+      refresh-min: 12h
+      reset-seed-on-fill: true
+      restrict-player-reloot: true
+    max-entity-collisions: 2
+    max-growth-height: 
+      cactus: 3
+      reeds: 3
+    mob-spawner-tick-rate: 1
+    nether-ceiling-void-damage-height: 0
+    non-player-arrow-despawn-rate: -1
+    optimize-explosions: false
+    parrots-are-unaffected-by-player-movement: false
+    portal-search-radius: 128
+    prevent-moving-into-unloaded-chunks: false
+    prevent-tnt-from-moving-in-water: false
+    remove-corrupt-tile-entities: false
+    skeleton-horse-thunder-spawn-chance: 0.01
+    spawner-nerfed-mobs-should-jump: false
+    squid-spawn-height: 
+      maximum: 0.0
+    tnt-entity-height-nerf: 0
+    treasure-maps-return-already-discovered: false
+    use-faster-eigencraft-redstone: false
+    use-vanilla-world-scoreboard-name-coloring: false
+    water-over-lava-flow-speed: 5
