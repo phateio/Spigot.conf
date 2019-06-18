@@ -51,7 +51,7 @@ settings:
   player-shuffle: 0
   restart-on-crash: true
   restart-script: ./start.sh
-  sample-count: 12
+  sample-count: 0
   save-user-cache-on-stop-only: false
   timeout-time: 60
   user-cache-size: 1000
