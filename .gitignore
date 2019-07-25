@@ -1,0 +1,9 @@
+/cache/*
+/logs/*
+/plugins/*
+/workspace/*
+/world*
+/server-icon.png
+/usercache.json
+/version_history.json
+/*.jar
