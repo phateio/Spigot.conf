@@ -103,9 +103,10 @@ world-settings:
       sprint-multiplier: 0.1
       swim-multiplier: 0.01
     item-despawn-rate: 6000
+    max-entity-collisions: 8
     max-tick-time: 
-      entity: 50
-      tile: 50
+      entity: 1000
+      tile: 1000
     max-tnt-per-tick: 100
     merge-radius: 
       exp: 3.0
