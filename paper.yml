@@ -59,6 +59,10 @@ world-settings:
     all-chunks-are-slime-chunks: false
     allow-leashing-undead-horse: false
     allow-non-player-entities-on-scoreboards: false
+    alt-item-despawn-rate:
+      enabled: false
+      items:
+        COBBLESTONE: 300
     anti-xray:
       chunk-edge-mode: 2
       enabled: false

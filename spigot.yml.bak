@@ -128,5 +128,6 @@ world-settings:
       hopper-check: 1
       hopper-transfer: 8
     verbose: true
+    view-distance: default
     wither-spawn-sound-radius: 0
     zombie-aggressive-towards-villager: true
