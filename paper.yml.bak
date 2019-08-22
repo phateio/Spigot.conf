@@ -11,15 +11,15 @@
 # Docs: https://paper.readthedocs.org/ 
 
 config-version: 19
-messages: 
-  kick: 
+messages:
+  kick:
     authentication-servers-down: ""
     connection-throttle: "Connection throttled! Please wait before reconnecting."
     flying-player: "Flying is not enabled on this server"
     flying-vehicle: "Flying is not enabled on this server"
   no-permission: "&cI'm sorry, but you do not have permission to perform this command. Please contact the server administrators if you believe that this is in error."
-settings: 
-  book-size: 
+settings:
+  book-size:
     page-max: 2560
     total-multiplier: 0.98
   bungee-online-mode: true
@@ -29,22 +29,22 @@ settings:
   region-file-cache-size: 256
   save-empty-scoreboard-teams: false
   save-player-data: true
-  spam-limiter: 
+  spam-limiter:
     tab-spam-increment: 1
     tab-spam-limit: 500
   suggest-player-names-when-null-tab-completions: true
   use-alternative-luck-formula: false
   use-versioned-world: false
-  velocity-support: 
+  velocity-support:
     enabled: false
     online-mode: false
     secret: ""
-  watchdog: 
+  watchdog:
     early-warning-delay: 10000
     early-warning-every: 5000
-timings: 
+timings:
   enabled: true
-  hidden-config-entries: 
+  hidden-config-entries:
     - database
     - settings.bungeecord-addresses
   history-interval: 300
@@ -53,8 +53,8 @@ timings:
   server-name-privacy: false
   verbose: true
 verbose: false
-world-settings: 
-  default: 
+world-settings:
+  default:
     all-chunks-are-slime-chunks: false
     allow-leashing-undead-horse: false
     allow-non-player-entities-on-scoreboards: false
@@ -62,11 +62,11 @@ world-settings:
       enabled: false
       items:
         COBBLESTONE: 300
-    anti-xray: 
+    anti-xray:
       chunk-edge-mode: 2
       enabled: false
       engine-mode: 1
-      hidden-blocks: 
+      hidden-blocks:
         - gold_ore
         - iron_ore
         - coal_ore
@@ -80,7 +80,7 @@ world-settings:
         - emerald_ore
         - ender_chest
       max-chunk-section-index: 3
-      replacement-blocks: 
+      replacement-blocks:
         - stone
         - oak_planks
       update-radius: 2
@@ -92,7 +92,7 @@ world-settings:
     container-update-tick-rate: 1
     count-all-mobs-for-spawning: false
     creative-arrow-despawn-rate: -1
-    despawn-ranges: 
+    despawn-ranges:
       hard: 128
       soft: 32
     disable-creeper-lingering-effect: false
@@ -106,16 +106,16 @@ world-settings:
     experience-merge-max-value: -1
     falling-block-height-nerf: 0
     filter-nbt-data-from-spawn-eggs-and-related: true
-    fishing-time-range: 
+    fishing-time-range:
       MaximumTicks: 600
       MinimumTicks: 100
     fixed-chunk-inhabited-time: -1
-    frosted-ice: 
-      delay: 
+    frosted-ice:
+      delay:
         max: 40
         min: 20
       enabled: true
-    game-mechanics: 
+    game-mechanics:
       disable-chest-cat-detection: false
       disable-end-credits: false
       disable-player-crits: false
@@ -125,16 +125,16 @@ world-settings:
       scan-for-legacy-ender-dragon: true
       shield-blocking-delay: 5
     grass-spread-tick-rate: 1
-    hopper: 
+    hopper:
       cooldown-when-full: true
       disable-move-event: false
     keep-spawn-loaded: true
     keep-spawn-loaded-range: 10
-    lightning-strike-distance-limit: 
+    lightning-strike-distance-limit:
       flash: -1
       impact-sound: -1
       sound: -1
-    lootables: 
+    lootables:
       auto-replenish: false
       max-refills: -1
       refresh-max: 2d
@@ -143,7 +143,7 @@ world-settings:
       restrict-player-reloot: true
     max-auto-save-chunks-per-tick: 24
     max-entity-collisions: 8
-    max-growth-height: 
+    max-growth-height:
       cactus: 3
       reeds: 3
     mob-spawner-tick-rate: 1
@@ -157,7 +157,7 @@ world-settings:
     remove-corrupt-tile-entities: false
     skeleton-horse-thunder-spawn-chance: 0.01
     spawner-nerfed-mobs-should-jump: false
-    squid-spawn-height: 
+    squid-spawn-height:
       maximum: 0.0
     tnt-entity-height-nerf: 0
     treasure-maps-return-already-discovered: false
