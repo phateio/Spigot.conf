@@ -169,3 +169,9 @@ world-settings:
     use-faster-eigencraft-redstone: false
     use-vanilla-world-scoreboard-name-coloring: false
     water-over-lava-flow-speed: 5
+  world_2014:
+    anti-xray:
+      enabled: true
+  world_2019:
+    anti-xray:
+      enabled: true
