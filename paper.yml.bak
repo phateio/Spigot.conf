@@ -13,11 +13,12 @@
 config-version: 19
 messages:
   kick:
-    authentication-servers-down: ""
-    connection-throttle: "Connection throttled! Please wait before reconnecting."
-    flying-player: "Flying is not enabled on this server"
-    flying-vehicle: "Flying is not enabled on this server"
-  no-permission: "&cI'm sorry, but you do not have permission to perform this command. Please contact the server administrators if you believe that this is in error."
+    authentication-servers-down: ''
+    connection-throttle: Connection throttled! Please wait before reconnecting.
+    flying-player: Flying is not enabled on this server
+    flying-vehicle: Flying is not enabled on this server
+  no-permission: '&cI''m sorry, but you do not have permission to perform this command.
+    Please contact the server administrators if you believe that this is in error.'
 settings:
   async-chunks:
     enable: true
@@ -41,18 +42,18 @@ settings:
   velocity-support:
     enabled: false
     online-mode: false
-    secret: ""
+    secret: ''
   watchdog:
     early-warning-delay: 10000
     early-warning-every: 5000
 timings:
   enabled: true
   hidden-config-entries:
-    - database
-    - settings.bungeecord-addresses
+  - database
+  - settings.bungeecord-addresses
   history-interval: 300
   history-length: 3600
-  server-name: "Unknown Server"
+  server-name: Unknown Server
   server-name-privacy: false
   verbose: true
 verbose: false
@@ -70,22 +71,22 @@ world-settings:
       enabled: false
       engine-mode: 1
       hidden-blocks:
-        - gold_ore
-        - iron_ore
-        - coal_ore
-        - lapis_ore
-        - mossy_cobblestone
-        - obsidian
-        - chest
-        - diamond_ore
-        - redstone_ore
-        - clay
-        - emerald_ore
-        - ender_chest
+      - gold_ore
+      - iron_ore
+      - coal_ore
+      - lapis_ore
+      - mossy_cobblestone
+      - obsidian
+      - chest
+      - diamond_ore
+      - redstone_ore
+      - clay
+      - emerald_ore
+      - ender_chest
       max-chunk-section-index: 3
       replacement-blocks:
-        - stone
-        - oak_planks
+      - stone
+      - oak_planks
       update-radius: 2
     armor-stands-do-collision-entity-lookups: true
     armor-stands-tick: true
