@@ -113,6 +113,7 @@ world-settings:
     fishing-time-range:
       MaximumTicks: 600
       MinimumTicks: 100
+    fix-zero-tick-instant-grow-farms: true
     fixed-chunk-inhabited-time: -1
     frosted-ice:
       delay:
