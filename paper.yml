@@ -10,7 +10,7 @@
 # Website: https://papermc.io/ 
 # Docs: https://paper.readthedocs.org/ 
 
-config-version: 19
+config-version: 20
 messages:
   kick:
     authentication-servers-down: ''
@@ -91,7 +91,7 @@ world-settings:
     armor-stands-do-collision-entity-lookups: true
     armor-stands-tick: true
     auto-save-interval: -1
-    baby-zombie-movement-speed: 0.5
+    baby-zombie-movement-modifier: 0.5
     bed-search-radius: 1
     container-update-tick-rate: 1
     count-all-mobs-for-spawning: false
