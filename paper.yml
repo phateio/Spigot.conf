@@ -123,6 +123,7 @@ world-settings:
     game-mechanics:
       disable-chest-cat-detection: false
       disable-end-credits: false
+      disable-pillager-patrols: false
       disable-player-crits: false
       disable-relative-projectile-velocity: false
       disable-sprint-interruption-on-attack: false
