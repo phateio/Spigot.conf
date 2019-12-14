@@ -45,6 +45,7 @@ settings:
   bungeecord: false
   debug: false
   late-bind: false
+  log-villager-deaths: true
   moved-too-quickly-multiplier: 10.0
   moved-wrongly-threshold: 0.0625
   netty-threads: 4
@@ -127,6 +128,7 @@ world-settings:
     ticks-per:
       hopper-check: 1
       hopper-transfer: 8
+    trident-despawn-rate: 1200
     verbose: true
     view-distance: default
     wither-spawn-sound-radius: 0
