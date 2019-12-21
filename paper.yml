@@ -107,6 +107,7 @@ world-settings:
     duplicate-uuid-resolver: saferegen
     duplicate-uuid-saferegen-delete-range: 32
     enable-treasure-maps: true
+    entities-target-with-follow-range: false
     experience-merge-max-value: -1
     falling-block-height-nerf: 0
     filter-nbt-data-from-spawn-eggs-and-related: true
