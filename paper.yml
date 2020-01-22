@@ -161,6 +161,7 @@ world-settings:
     optimize-explosions: false
     parrots-are-unaffected-by-player-movement: false
     per-player-mob-spawns: false
+    portal-create-radius: 16
     portal-search-radius: 128
     prevent-moving-into-unloaded-chunks: false
     prevent-tnt-from-moving-in-water: false
