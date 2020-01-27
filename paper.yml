@@ -166,6 +166,7 @@ world-settings:
     prevent-moving-into-unloaded-chunks: false
     prevent-tnt-from-moving-in-water: false
     remove-corrupt-tile-entities: false
+    seed-based-feature-search: true
     skeleton-horse-thunder-spawn-chance: 0.01
     spawner-nerfed-mobs-should-jump: false
     squid-spawn-height:
