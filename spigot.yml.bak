@@ -70,6 +70,7 @@ world-settings:
       monsters: 32
       raiders: 48
       tick-inactive-villagers: true
+      water: 16
     entity-tracking-range:
       animals: 48
       misc: 32
