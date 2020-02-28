@@ -129,6 +129,7 @@ world-settings:
       disable-relative-projectile-velocity: false
       disable-sprint-interruption-on-attack: false
       disable-unloaded-chunk-enderpearl-exploit: true
+      nerf-pigmen-from-nether-portals: false
       scan-for-legacy-ender-dragon: true
       shield-blocking-delay: 5
     generator-settings:
