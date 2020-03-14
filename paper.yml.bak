@@ -138,6 +138,7 @@ world-settings:
     hopper:
       cooldown-when-full: true
       disable-move-event: false
+    iron-golems-can-spawn-in-air: false
     keep-spawn-loaded: true
     keep-spawn-loaded-range: 10
     lightning-strike-distance-limit:
@@ -177,3 +178,4 @@ world-settings:
     use-faster-eigencraft-redstone: false
     use-vanilla-world-scoreboard-name-coloring: false
     water-over-lava-flow-speed: 5
+    zombie-villager-infection-chance: -1.0
