@@ -130,6 +130,14 @@ world-settings:
       disable-sprint-interruption-on-attack: false
       disable-unloaded-chunk-enderpearl-exploit: true
       nerf-pigmen-from-nether-portals: false
+      pillager-patrols:
+        spawn-chance: 0.2
+        spawn-delay:
+          per-player: false
+          ticks: 12000
+        start:
+          per-player: false
+          day: 5
       scan-for-legacy-ender-dragon: true
       shield-blocking-delay: 5
     generator-settings:
@@ -174,6 +182,7 @@ world-settings:
     squid-spawn-height:
       maximum: 0.0
     tnt-entity-height-nerf: 0
+    tracker-update-distance: 1.0
     treasure-maps-return-already-discovered: false
     use-faster-eigencraft-redstone: false
     use-vanilla-world-scoreboard-name-coloring: false
