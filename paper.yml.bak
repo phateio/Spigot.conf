@@ -149,6 +149,7 @@ world-settings:
     iron-golems-can-spawn-in-air: false
     keep-spawn-loaded: true
     keep-spawn-loaded-range: 10
+    light-queue-size: 20
     lightning-strike-distance-limit:
       flash: -1
       impact-sound: -1
