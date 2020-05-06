@@ -190,6 +190,8 @@ world-settings:
     treasure-maps-return-already-discovered: false
     use-faster-eigencraft-redstone: false
     use-vanilla-world-scoreboard-name-coloring: false
+    viewdistances:
+      no-tick-view-distance: -1
     water-over-lava-flow-speed: 5
     zombie-villager-infection-chance: -1.0
   world_2014:
