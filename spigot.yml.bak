@@ -72,6 +72,9 @@ world-settings:
       raiders: 48
       tick-inactive-villagers: true
       villagers: 32
+      villagers-active-for-panic: true
+      villagers-work-immunity-after: 100
+      villagers-work-immunity-for: 20
       water: 16
       wake-up-inactive:
         animals-every: 1200
