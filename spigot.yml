@@ -64,6 +64,7 @@ world-settings:
     arrow-despawn-rate: 1200
     dragon-death-sound-radius: 0
     enable-zombie-pigmen-portal-spawns: true
+    end-portal-sound-radius: 0
     entity-activation-range:
       animals: 32
       flying-monsters: 32
