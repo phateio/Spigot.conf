@@ -10,6 +10,7 @@
 # Website: https://papermc.io/ 
 # Docs: https://paper.readthedocs.org/ 
 
+allow-perm-block-break-exploits: false
 config-version: 20
 messages:
   kick:
@@ -28,6 +29,7 @@ settings:
     total-multiplier: 0.98
   bungee-online-mode: true
   chunk-tasks-per-tick: 1000
+  console-has-all-permissions: false
   enable-player-collisions: true
   incoming-packet-spam-threshold: 300
   load-permissions-yml-before-plugins: true
