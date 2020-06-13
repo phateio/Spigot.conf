@@ -99,6 +99,7 @@ world-settings:
     container-update-tick-rate: 1
     count-all-mobs-for-spawning: false
     creative-arrow-despawn-rate: -1
+    delay-chunk-unloads-by: 10s
     despawn-ranges:
       hard: 128
       soft: 32
