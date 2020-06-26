@@ -40,6 +40,8 @@ settings:
     tab-spam-increment: 1
     tab-spam-limit: 500
   suggest-player-names-when-null-tab-completions: true
+  unsupported-settings:
+    allow-tnt-duplication: false
   use-alternative-luck-formula: false
   use-versioned-world: false
   velocity-support:
