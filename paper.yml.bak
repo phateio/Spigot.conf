@@ -10,7 +10,6 @@
 # Website: https://papermc.io/ 
 # Docs: https://paper.readthedocs.org/ 
 
-allow-perm-block-break-exploits: false
 config-version: 20
 messages:
   kick:
@@ -41,7 +40,14 @@ settings:
     tab-spam-limit: 500
   suggest-player-names-when-null-tab-completions: true
   unsupported-settings:
+    allow-permanent-block-break-exploits: false
+    allow-permanent-block-break-exploits-readme: This setting controls if players
+      should be able to break bedrock, end portals and other intended to be permanent
+      blocks.
     allow-piston-duplication: false
+    allow-piston-duplication-readme: This setting controls if player should be able
+      to use TNT duplication, but this also allows duplicating carpet, rails and potentially
+      other items
   use-alternative-luck-formula: false
   use-versioned-world: false
   velocity-support:
