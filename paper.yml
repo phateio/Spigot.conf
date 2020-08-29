@@ -32,6 +32,9 @@ settings:
   enable-player-collisions: true
   incoming-packet-spam-threshold: 300
   load-permissions-yml-before-plugins: true
+  max-joins-per-tick: 3
+  max-player-auto-save-per-tick: -1
+  player-auto-save-rate: -1
   region-file-cache-size: 256
   save-empty-scoreboard-teams: false
   save-player-data: true
@@ -40,6 +43,9 @@ settings:
     tab-spam-limit: 500
   suggest-player-names-when-null-tab-completions: true
   unsupported-settings:
+    allow-headless-pistons: false
+    allow-headless-pistons-readme: This setting controls if players should be able
+      to create headless pistons.
     allow-permanent-block-break-exploits: false
     allow-permanent-block-break-exploits-readme: This setting controls if players
       should be able to break bedrock, end portals and other intended to be permanent
