@@ -211,6 +211,7 @@ world-settings:
       no-tick-view-distance: -1
     water-over-lava-flow-speed: 5
     zombie-villager-infection-chance: -1.0
+    zombies-target-turtle-eggs: true
   world_2014:
     anti-xray:
       enabled: true
