@@ -34,6 +34,8 @@ messages:
   server-full: The server is full!
   unknown-command: Unknown command. Type "/help" for help.
   whitelist: You are not whitelisted on this server!
+players:
+  disable-saving: false
 settings:
   attribute:
     attackDamage:
