@@ -6,7 +6,7 @@
 # join us in our Discord or IRC channel.
 # 
 # Discord: https://discord.gg/papermc
-# IRC: #paper @ irc.spi.gt ( http://irc.spi.gt/iris/?channels=paper )
+# IRC: #paper @ irc.esper.net ( https://webchat.esper.net/?channels=paper ) 
 # Website: https://papermc.io/ 
 # Docs: https://paper.readthedocs.org/ 
 
@@ -200,6 +200,7 @@ world-settings:
     prevent-tnt-from-moving-in-water: false
     remove-corrupt-tile-entities: false
     seed-based-feature-search: true
+    should-remove-dragon: false
     skeleton-horse-thunder-spawn-chance: 0.01
     spawner-nerfed-mobs-should-jump: false
     squid-spawn-height:
@@ -211,6 +212,12 @@ world-settings:
     use-vanilla-world-scoreboard-name-coloring: false
     viewdistances:
       no-tick-view-distance: -1
+    wandering-trader:
+      spawn-minute-length: 1200
+      spawn-day-length: 24000
+      spawn-chance-failure-increment: 25
+      spawn-chance-min: 25
+      spawn-chance-max: 75
     water-over-lava-flow-speed: 5
     zombie-villager-infection-chance: -1.0
     zombies-target-turtle-eggs: true
