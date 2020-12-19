@@ -152,7 +152,7 @@ world-settings:
       disable-player-crits: false
       disable-relative-projectile-velocity: false
       disable-sprint-interruption-on-attack: false
-      disable-unloaded-chunk-enderpearl-exploit: true
+      disable-unloaded-chunk-enderpearl-exploit: false
       fix-curing-zombie-villager-discount-exploit: false
       nerf-pigmen-from-nether-portals: false
       pillager-patrols:
