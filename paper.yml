@@ -30,6 +30,7 @@ settings:
   chunk-tasks-per-tick: 1000
   console-has-all-permissions: false
   enable-player-collisions: true
+  fix-entity-position-desync: true
   incoming-packet-spam-threshold: 300
   load-permissions-yml-before-plugins: true
   max-joins-per-tick: 3
@@ -39,6 +40,8 @@ settings:
   save-empty-scoreboard-teams: false
   save-player-data: true
   spam-limiter:
+    recipe-spam-increment: 1
+    recipe-spam-limit: 20
     tab-spam-increment: 1
     tab-spam-limit: 500
   suggest-player-names-when-null-tab-completions: true
