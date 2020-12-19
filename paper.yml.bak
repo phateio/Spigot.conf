@@ -134,6 +134,7 @@ world-settings:
     fishing-time-range:
       MaximumTicks: 600
       MinimumTicks: 100
+    fix-climbing-bypassing-cramming-rule: false
     fix-zero-tick-instant-grow-farms: true
     fixed-chunk-inhabited-time: -1
     frosted-ice:
@@ -149,6 +150,7 @@ world-settings:
       disable-relative-projectile-velocity: false
       disable-sprint-interruption-on-attack: false
       disable-unloaded-chunk-enderpearl-exploit: true
+      fix-curing-zombie-villager-discount-exploit: true
       nerf-pigmen-from-nether-portals: false
       pillager-patrols:
         spawn-chance: 0.2
