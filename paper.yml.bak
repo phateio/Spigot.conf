@@ -72,6 +72,7 @@ timings:
   hidden-config-entries:
   - database
   - settings.bungeecord-addresses
+  - settings.velocity-support.secret
   history-interval: 300
   history-length: 3600
   server-name: Unknown Server
@@ -148,6 +149,7 @@ world-settings:
     game-mechanics:
       disable-chest-cat-detection: false
       disable-end-credits: false
+      disable-mob-spawner-spawn-egg-transformation: false
       disable-pillager-patrols: false
       disable-player-crits: false
       disable-relative-projectile-velocity: false
