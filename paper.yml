@@ -111,6 +111,7 @@ world-settings:
       - stone
       - oak_planks
       update-radius: 2
+      use-permission: false
     armor-stands-do-collision-entity-lookups: true
     armor-stands-tick: true
     auto-save-interval: -1
@@ -191,9 +192,21 @@ world-settings:
     max-auto-save-chunks-per-tick: 24
     max-entity-collisions: 8
     max-growth-height:
+      bamboo:
+        max: 16
+        min: 11
       cactus: 3
       reeds: 3
     mob-spawner-tick-rate: 1
+    mobs-can-always-pick-up-loot:
+      zombies: false
+      skeletons: false
+    door-breaking-difficulty:
+      zombie:
+      - HARD
+      vindicator:
+      - NORMAL
+      - HARD
     nether-ceiling-void-damage-height: 0
     non-player-arrow-despawn-rate: -1
     optimize-explosions: false
@@ -203,6 +216,7 @@ world-settings:
     phantoms-only-attack-insomniacs: true
     portal-create-radius: 16
     portal-search-radius: 128
+    portal-search-vanilla-dimension-scaling: true
     prevent-moving-into-unloaded-chunks: false
     prevent-tnt-from-moving-in-water: false
     remove-corrupt-tile-entities: false
