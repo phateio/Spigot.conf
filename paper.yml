@@ -203,6 +203,7 @@ world-settings:
         min: 11
       cactus: 3
       reeds: 3
+    max-leash-distance: 10.0
     mob-spawner-tick-rate: 1
     mobs-can-always-pick-up-loot:
       zombies: false
