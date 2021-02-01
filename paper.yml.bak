@@ -133,6 +133,7 @@ world-settings:
     duplicate-uuid-resolver: saferegen
     duplicate-uuid-saferegen-delete-range: 32
     enable-treasure-maps: true
+    ender-dragons-death-always-places-dragon-egg: false
     entities-target-with-follow-range: false
     entity-per-chunk-save-limit:
       arrow: -1
@@ -237,6 +238,7 @@ world-settings:
     tnt-entity-height-nerf: 0
     tracker-update-distance: 1.0
     treasure-maps-return-already-discovered: false
+    update-pathfinding-on-block-update: true
     use-faster-eigencraft-redstone: false
     use-vanilla-world-scoreboard-name-coloring: false
     viewdistances:
