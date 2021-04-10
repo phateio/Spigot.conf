@@ -78,12 +78,14 @@ timings:
   server-name: Unknown Server
   server-name-privacy: false
   verbose: true
+use-display-name-in-quit-message: false
 verbose: false
 world-settings:
   default:
     all-chunks-are-slime-chunks: false
     allow-leashing-undead-horse: false
     allow-non-player-entities-on-scoreboards: false
+    allow-using-signs-inside-spawn-protection: false
     allow-vehicle-collisions: true
     alt-item-despawn-rate:
       enabled: false
@@ -147,6 +149,7 @@ world-settings:
       MaximumTicks: 600
       MinimumTicks: 100
     fix-climbing-bypassing-cramming-rule: false
+    fix-wither-targeting-bug: false
     fix-zero-tick-instant-grow-farms: true
     fixed-chunk-inhabited-time: -1
     frosted-ice:
