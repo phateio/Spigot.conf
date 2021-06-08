@@ -35,6 +35,14 @@ settings:
   enable-player-collisions: true
   fix-entity-position-desync: true
   incoming-packet-spam-threshold: 300
+  item-validation:
+    display-name: 8192
+    loc-name: 8192
+    lore-line: 8192
+    book:
+      title: 8192
+      author: 8192
+      page: 16384
   load-permissions-yml-before-plugins: true
   max-joins-per-tick: 3
   max-player-auto-save-per-tick: -1
@@ -152,6 +160,7 @@ world-settings:
       MaximumTicks: 600
       MinimumTicks: 100
     fix-climbing-bypassing-cramming-rule: false
+    fix-items-merging-through-walls: false
     fix-wither-targeting-bug: false
     fix-zero-tick-instant-grow-farms: true
     fixed-chunk-inhabited-time: -1
@@ -202,6 +211,7 @@ world-settings:
       refresh-min: 12h
       reset-seed-on-fill: true
       restrict-player-reloot: true
+    map-item-frame-cursor-limit: 128
     max-auto-save-chunks-per-tick: 24
     max-entity-collisions: 8
     max-growth-height:
@@ -236,14 +246,23 @@ world-settings:
     prevent-tnt-from-moving-in-water: false
     remove-corrupt-tile-entities: false
     seed-based-feature-search: true
+    seed-based-feature-search-loads-chunks: false
     should-remove-dragon: false
     skeleton-horse-thunder-spawn-chance: 0.01
+    spawn-limits:
+      monsters: -1
+      animals: -1
+      water-animals: -1
+      water-ambient: -1
+      ambient: -1
     spawner-nerfed-mobs-should-jump: false
     squid-spawn-height:
       maximum: 0.0
     tnt-entity-height-nerf: 0
     tracker-update-distance: 1.0
     treasure-maps-return-already-discovered: false
+    unsupported-settings:
+      fix-invulnerable-end-crystal-exploit: true
     update-pathfinding-on-block-update: true
     use-faster-eigencraft-redstone: true
     use-vanilla-world-scoreboard-name-coloring: false
