@@ -141,10 +141,10 @@ world-settings:
     ender-dragons-death-always-places-dragon-egg: false
     entities-target-with-follow-range: false
     entity-per-chunk-save-limit:
-      arrow: -1
-      ender_pearl: -1
-      experience_orb: -1
-      snowball: -1
+      arrow: 24
+      ender_pearl: 24
+      experience_orb: 24
+      snowball: 24
     experience-merge-max-value: -1
     falling-block-height-nerf: 0
     filter-nbt-data-from-spawn-eggs-and-related: true
