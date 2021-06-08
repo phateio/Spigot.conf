@@ -16,7 +16,7 @@ messages:
     authentication-servers-down: ''
     connection-throttle: Connection throttled! Please wait before reconnecting.
     flying-player: Flying is not enabled on this server
-    flying-vehicle: Flying is not enabled on this server
+    flying-vehicle: Flying vehicle is not enabled on this server
   no-permission: '&cI''m sorry, but you do not have permission to perform this command.
     Please contact the server administrators if you believe that this is in error.'
 settings:
