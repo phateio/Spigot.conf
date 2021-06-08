@@ -245,7 +245,7 @@ world-settings:
     tracker-update-distance: 1.0
     treasure-maps-return-already-discovered: false
     update-pathfinding-on-block-update: true
-    use-faster-eigencraft-redstone: false
+    use-faster-eigencraft-redstone: true
     use-vanilla-world-scoreboard-name-coloring: false
     viewdistances:
       no-tick-view-distance: -1
