@@ -44,6 +44,8 @@ settings:
       author: 8192
       page: 16384
   load-permissions-yml-before-plugins: true
+  loggers:
+    deobfuscate-stacktraces: true
   max-joins-per-tick: 3
   max-player-auto-save-per-tick: -1
   player-auto-save-rate: -1
@@ -120,6 +122,7 @@ world-settings:
       - emerald_ore
       - ender_chest
       lava-obscures: false
+      max-block-height: 64
       max-chunk-section-index: 3
       replacement-blocks:
       - stone
