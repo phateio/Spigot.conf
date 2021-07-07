@@ -44,6 +44,7 @@ settings:
       author: 8192
       page: 16384
   load-permissions-yml-before-plugins: true
+  log-named-entity-deaths: true
   loggers:
     deobfuscate-stacktraces: true
   max-joins-per-tick: 3
