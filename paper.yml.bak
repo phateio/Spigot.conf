@@ -225,6 +225,12 @@ world-settings:
       cactus: 3
       reeds: 3
     max-leash-distance: 10.0
+    mob-effects:
+      immune-to-wither-effect:
+        wither: true
+        wither-skeleton: true
+      spiders-immune-to-poison-effect: true
+      undead-immune-to-certain-effects: true
     mob-spawner-tick-rate: 1
     mobs-can-always-pick-up-loot:
       zombies: false
@@ -252,6 +258,7 @@ world-settings:
     seed-based-feature-search: true
     seed-based-feature-search-loads-chunks: false
     should-remove-dragon: false
+    show-sign-click-command-failure-msgs-to-player: false
     skeleton-horse-thunder-spawn-chance: 0.01
     spawn-limits:
       monsters: -1
