@@ -99,6 +99,7 @@ world-settings:
     all-chunks-are-slime-chunks: false
     allow-leashing-undead-horse: false
     allow-non-player-entities-on-scoreboards: false
+    allow-player-cramming-damage: false
     allow-using-signs-inside-spawn-protection: false
     allow-vehicle-collisions: true
     alt-item-despawn-rate:
@@ -269,6 +270,13 @@ world-settings:
     spawner-nerfed-mobs-should-jump: false
     squid-spawn-height:
       maximum: 0.0
+    tick-rates:
+      sensor:
+        villager:
+          secondarypoisensor: 40
+      behavior:
+        villager:
+          validatenearbypoi: -1
     tnt-entity-height-nerf: 0
     tracker-update-distance: 1.0
     treasure-maps-return-already-discovered: false
