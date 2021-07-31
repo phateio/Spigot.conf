@@ -10,7 +10,7 @@
 # Website: https://papermc.io/ 
 # Docs: https://paper.readthedocs.org/ 
 
-config-version: 20
+config-version: 21
 messages:
   kick:
     authentication-servers-down: ''
@@ -73,6 +73,7 @@ settings:
       to use TNT duplication, but this also allows duplicating carpet, rails and potentially
       other items
   use-alternative-luck-formula: false
+  use-display-name-in-quit-message: false
   use-versioned-world: false
   velocity-support:
     enabled: false
@@ -91,6 +92,7 @@ timings:
   history-length: 3600
   server-name: Unknown Server
   server-name-privacy: false
+  url: https://timings.aikar.co/
   verbose: true
 use-display-name-in-quit-message: false
 verbose: false
@@ -166,6 +168,8 @@ world-settings:
       arrow: 24
       ender_pearl: 24
       experience_orb: 24
+      fireball: 24
+      small_fireball: 24
       snowball: 24
     experience-merge-max-value: -1
     falling-block-height-nerf: 0
