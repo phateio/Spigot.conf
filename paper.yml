@@ -312,9 +312,6 @@ world-settings:
   world_2014:
     anti-xray:
       enabled: true
-  world_2020:
-    anti-xray:
-      enabled: true
   world_2021:
     anti-xray:
       enabled: true
