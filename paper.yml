@@ -86,8 +86,11 @@ timings:
   enabled: true
   hidden-config-entries:
   - database
+  - server-ip
   - settings.bungeecord-addresses
+  - settings.seed
   - settings.velocity-support.secret
+  - web-services.token
   history-interval: 300
   history-length: 3600
   server-name: Unknown Server
@@ -230,6 +233,7 @@ world-settings:
       reset-seed-on-fill: true
       restrict-player-reloot: true
     map-item-frame-cursor-limit: 128
+    map-item-frame-cursor-update-interval: 10
     max-auto-save-chunks-per-tick: 24
     max-entity-collisions: 8
     max-growth-height:
@@ -263,6 +267,7 @@ world-settings:
     per-player-mob-spawns: false
     phantoms-do-not-spawn-on-creative-players: true
     phantoms-only-attack-insomniacs: true
+    piglins-guard-chests: true
     portal-create-radius: 16
     portal-search-radius: 128
     portal-search-vanilla-dimension-scaling: true
