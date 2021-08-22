@@ -47,6 +47,7 @@ settings:
   bungeecord: false
   debug: false
   late-bind: false
+  log-named-deaths: true
   log-villager-deaths: true
   moved-too-quickly-multiplier: 10.0
   moved-wrongly-threshold: 0.0625
