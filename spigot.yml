@@ -53,11 +53,11 @@ settings:
   moved-wrongly-threshold: 0.0625
   netty-threads: 4
   player-shuffle: 0
-  restart-on-crash: true
+  restart-on-crash: false
   restart-script: ./start.sh
   sample-count: 0
   save-user-cache-on-stop-only: false
-  timeout-time: 60
+  timeout-time: 300
   user-cache-size: 1000
 stats:
   disable-saving: false
