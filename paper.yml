@@ -10,7 +10,7 @@
 # Website: https://papermc.io/ 
 # Docs: https://paper.readthedocs.org/ 
 
-config-version: 21
+config-version: 22
 messages:
   kick:
     authentication-servers-down: ''
@@ -27,6 +27,26 @@ settings:
     page-max: 2560
     total-multiplier: 0.98
   bungee-online-mode: true
+  chunk-loading:
+    min-load-radius: 2
+    max-concurrent-sends: 2
+    autoconfig-send-distance: true
+    target-player-chunk-send-rate: 100.0
+    global-max-chunk-send-rate: -1.0
+    enable-frustum-priority: false
+    global-max-chunk-load-rate: 300.0
+    player-max-concurrent-loads: 4.0
+    global-max-concurrent-loads: 500.0
+  packet-limiter:
+    kick-message: '&cSent too many packets'
+    limits:
+      all:
+        interval: 7.0
+        max-packet-rate: 500.0
+      PacketPlayInAutoRecipe:
+        interval: 4.0
+        max-packet-rate: 5.0
+        action: DROP
   chunk-tasks-per-tick: 1000
   console:
     enable-brigadier-highlighting: true
@@ -43,6 +63,7 @@ settings:
       title: 8192
       author: 8192
       page: 16384
+  lag-compensate-block-breaking: true
   load-permissions-yml-before-plugins: true
   log-named-entity-deaths: true
   loggers:
@@ -53,6 +74,7 @@ settings:
   region-file-cache-size: 256
   save-empty-scoreboard-teams: false
   save-player-data: true
+  send-full-pos-for-hard-colliding-entities: true
   spam-limiter:
     recipe-spam-increment: 1
     recipe-spam-limit: 20
@@ -176,6 +198,8 @@ world-settings:
       snowball: 24
     experience-merge-max-value: -1
     falling-block-height-nerf: 0
+    feature-seeds:
+      generate-random-seeds-for-all: false
     filter-nbt-data-from-spawn-eggs-and-related: true
     fishing-time-range:
       MaximumTicks: 600

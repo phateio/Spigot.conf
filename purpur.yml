@@ -9,7 +9,7 @@
 # Wiki: https://github.com/pl3xgaming/Purpur/wiki 
 
 verbose: false
-config-version: 18
+config-version: 22
 settings:
   lagging-threshold: 19.0
   allow-water-placement-in-the-end: true
@@ -135,7 +135,7 @@ settings:
     disable-note-block-updates: false
     disable-chorus-plant-updates: false
     barrel:
-      six-rows: false
+      rows: 3
     ender_chest:
       six-rows: false
       use-permissions-for-rows: false
@@ -157,6 +157,7 @@ settings:
     enderman:
       short-height: false
   logger:
+    suppress-unrecognized-recipe-errors: false
     suppress-init-legacy-material-errors: false
     suppress-ignored-advancement-warnings: false
 world-settings:
@@ -254,6 +255,7 @@ world-settings:
         attributes:
           max_health: 20.0
       cat:
+        default-collar-color: RED
         ridable: false
         ridable-in-water: false
         spawn-delay: 1200
@@ -286,6 +288,9 @@ world-settings:
         breeding-delay-ticks: 6000
         attributes:
           max_health: 10.0
+        naturally-aggressive-to-players:
+          damage: 2.0
+          chance: 0.0
       creeper:
         ridable: false
         ridable-in-water: false
@@ -297,6 +302,7 @@ world-settings:
         attributes:
           max_health: 20.0
       dolphin:
+        naturally-aggressive-to-players-chance: 0.0
         ridable: false
         disable-treasure-searching: false
         spit:
@@ -414,6 +420,7 @@ world-settings:
         attributes:
           max_health: 40.0
       horse:
+        tempted-by-gold: false
         ridable-in-water: false
         breeding-delay-ticks: 6000
         stand-with-rider: true
@@ -452,6 +459,7 @@ world-settings:
         attributes:
           max_health: 100.0
       llama:
+        tempted-by-hay: false
         ridable: false
         ridable-in-water: false
         breeding-delay-ticks: 6000
@@ -785,6 +793,8 @@ world-settings:
           chance: 0.05
           try-existing-chickens: true
     gameplay-mechanics:
+      rain-stops-after-sleep: true
+      thunder-stops-after-sleep: true
       shovel-turns-block-to-grass-path:
       - minecraft:coarse_dirt
       - minecraft:dirt
@@ -890,6 +900,7 @@ world-settings:
         wandering-traders: default
         village-sieges: default
       player:
+        shift-right-click-repairs-mending-points: 0
         spawn-invulnerable-ticks: 60
         invulnerable-while-accepting-resource-pack: false
         teleport-if-outside-border: false
@@ -912,7 +923,7 @@ world-settings:
           tick-nearby-entities: true
           count-as-sleeping: false
           update-tab-list: false
-          mods-target: true
+          mobs-target: true
         exp-dropped-on-death:
           equation: expLevel * 7
           maximum: 100
@@ -947,10 +958,10 @@ world-settings:
         snowball: 1.0
       silk-touch:
         enabled: false
-        spawner-name: Spawner
+        spawner-name: <reset><reset><reset><reset><reset><reset><reset>Spawner
         minimal-level: 1
         spawner-lore:
-        - Spawns a {mob}
+        - <reset><reset><reset><reset><reset><reset><reset>Spawns a <mob>
         tools:
         - minecraft:iron_pickaxe
         - minecraft:golden_pickaxe
@@ -959,6 +970,9 @@ world-settings:
       boat:
         eject-players-on-land: false
         do-fall-damage: true
+      halloween:
+        force: false
+        head-chance: 0.25
     blocks:
       no-random-tick: []
       observer:
@@ -972,6 +986,7 @@ world-settings:
           level-3: 40
           level-4: 50
       bed:
+        explode-on-villager-sleep: false
         explode: true
         explosion-power: 5.0
         explosion-fire: true
@@ -1091,6 +1106,10 @@ world-settings:
           FULL: 100
           PARTIAL: 10
           UNSTABLE: 10
+      azalea:
+        growth-chance: 0.0
+      flowering_azalea:
+        growth-chance: 0.0
     tools:
       axe:
         strippables:
