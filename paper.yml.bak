@@ -10,7 +10,7 @@
 # Website: https://papermc.io/ 
 # Docs: https://paper.readthedocs.org/ 
 
-config-version: 22
+config-version: 23
 messages:
   kick:
     authentication-servers-down: ''
@@ -34,7 +34,7 @@ settings:
     target-player-chunk-send-rate: 100.0
     global-max-chunk-send-rate: -1.0
     enable-frustum-priority: false
-    global-max-chunk-load-rate: 300.0
+    global-max-chunk-load-rate: -1.0
     player-max-concurrent-loads: 4.0
     global-max-concurrent-loads: 500.0
   packet-limiter:
@@ -66,6 +66,7 @@ settings:
   lag-compensate-block-breaking: true
   load-permissions-yml-before-plugins: true
   log-named-entity-deaths: true
+  log-player-ip-addresses: true
   loggers:
     deobfuscate-stacktraces: true
   max-joins-per-tick: 3
@@ -301,6 +302,7 @@ world-settings:
       water-ambient: -1
       ambient: -1
     spawner-nerfed-mobs-should-jump: false
+    split-overstacked-loot: true
     squid-spawn-height:
       maximum: 0.0
     tick-rates:
