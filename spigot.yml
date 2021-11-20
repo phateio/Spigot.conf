@@ -155,6 +155,7 @@ world-settings:
     seed-village: 10387312
     squid-spawn-range:
       min: 45.0
+    thunder-chance: 100000
     ticks-per:
       hopper-check: 1
       hopper-transfer: 8
