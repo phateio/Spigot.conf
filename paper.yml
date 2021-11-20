@@ -10,7 +10,7 @@
 # Website: https://papermc.io/ 
 # Docs: https://paper.readthedocs.org/ 
 
-config-version: 23
+config-version: 24
 messages:
   kick:
     authentication-servers-down: ''
@@ -178,8 +178,27 @@ world-settings:
     creative-arrow-despawn-rate: -1
     delay-chunk-unloads-by: 10s
     despawn-ranges:
-      hard: 128
-      soft: 32
+      monster:
+        soft: 32
+        hard: 128
+      creature:
+        soft: 32
+        hard: 128
+      ambient:
+        soft: 32
+        hard: 128
+      underground_water_creature:
+        soft: 32
+        hard: 128
+      water_creature:
+        soft: 32
+        hard: 128
+      water_ambient:
+        soft: 32
+        hard: 64
+      misc:
+        soft: 32
+        hard: 128
     disable-creeper-lingering-effect: false
     disable-explosion-knockback: false
     disable-ice-and-snow: false
@@ -305,11 +324,12 @@ world-settings:
     show-sign-click-command-failure-msgs-to-player: false
     skeleton-horse-thunder-spawn-chance: 0.01
     spawn-limits:
-      monsters: -1
-      animals: -1
-      water-animals: -1
-      water-ambient: -1
+      monster: -1
+      creature: -1
       ambient: -1
+      underground_water_creature: -1
+      water_creature: -1
+      water_ambient: -1
     spawner-nerfed-mobs-should-jump: false
     split-overstacked-loot: true
     squid-spawn-height:
