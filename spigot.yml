@@ -65,6 +65,7 @@ stats:
 world-settings:
   default:
     arrow-despawn-rate: 1200
+    below-zero-generation-in-existing-chunks: true
     dragon-death-sound-radius: 0
     enable-zombie-pigmen-portal-spawns: true
     end-portal-sound-radius: 0
@@ -105,7 +106,9 @@ world-settings:
       cactus-modifier: 100
       cane-modifier: 100
       carrot-modifier: 100
+      cavevines-modifier: 100
       cocoa-modifier: 100
+      glowberry-modifier: 100
       kelp-modifier: 100
       melon-modifier: 100
       mushroom-modifier: 100
@@ -114,7 +117,9 @@ world-settings:
       pumpkin-modifier: 100
       sapling-modifier: 100
       sweetberry-modifier: 100
+      twistingvines-modifier: 100
       vine-modifier: 100
+      weepingvines-modifier: 100
       wheat-modifier: 100
     hanging-tick-frequency: 100
     hopper-amount: 1
@@ -153,6 +158,7 @@ world-settings:
     seed-slime: 987234911
     seed-swamp: 14357620
     seed-village: 10387312
+    simulation-distance: default
     squid-spawn-range:
       min: 45.0
     thunder-chance: 100000

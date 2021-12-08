@@ -159,6 +159,11 @@ world-settings:
       - oak_planks
       update-radius: 2
       use-permission: false
+    anticheat:
+      obfuscation:
+        items:
+          hide-durability: false
+          hide-itemmeta: false
     armor-stands-do-collision-entity-lookups: true
     armor-stands-tick: true
     auto-save-interval: -1
@@ -176,6 +181,9 @@ world-settings:
         soft: 32
         hard: 128
       ambient:
+        soft: 32
+        hard: 128
+      axolotls:
         soft: 32
         hard: 128
       underground_water_creature:
@@ -252,6 +260,7 @@ world-settings:
     hopper:
       cooldown-when-full: true
       disable-move-event: false
+      ignore-occluding-blocks: true
     iron-golems-can-spawn-in-air: false
     keep-spawn-loaded: true
     keep-spawn-loaded-range: 10
@@ -318,6 +327,7 @@ world-settings:
       monster: -1
       creature: -1
       ambient: -1
+      axolotls: -1
       underground_water_creature: -1
       water_creature: -1
       water_ambient: -1
