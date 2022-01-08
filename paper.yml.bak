@@ -54,6 +54,7 @@ settings:
   console-has-all-permissions: false
   enable-player-collisions: true
   fix-entity-position-desync: true
+  fix-target-selector-tag-completion: true
   incoming-packet-spam-threshold: 300
   item-validation:
     display-name: 8192
@@ -74,7 +75,6 @@ settings:
   player-auto-save-rate: -1
   region-file-cache-size: 256
   save-empty-scoreboard-teams: false
-  save-player-data: true
   send-full-pos-for-hard-colliding-entities: true
   spam-limiter:
     recipe-spam-increment: 1
@@ -95,6 +95,7 @@ settings:
     allow-piston-duplication-readme: This setting controls if player should be able
       to use TNT duplication, but this also allows duplicating carpet, rails and potentially
       other items
+    perform-username-validation: true
   use-alternative-luck-formula: false
   use-display-name-in-quit-message: false
   use-versioned-world: false
@@ -297,6 +298,7 @@ world-settings:
     mobs-can-always-pick-up-loot:
       zombies: false
       skeletons: false
+    monster-spawn-max-light-level: -1
     door-breaking-difficulty:
       zombie:
       - HARD
@@ -359,5 +361,8 @@ world-settings:
       spawn-chance-min: 25
       spawn-chance-max: 75
     water-over-lava-flow-speed: 5
+    wateranimal-spawn-height:
+      maximum: default
+      minimum: default
     zombie-villager-infection-chance: -1.0
     zombies-target-turtle-eggs: true
