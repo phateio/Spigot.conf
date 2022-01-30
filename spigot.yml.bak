@@ -156,6 +156,7 @@ world-settings:
     seed-portal: 34222645
     seed-shipwreck: 165745295
     seed-slime: 987234911
+    seed-stronghold: default
     seed-swamp: 14357620
     seed-village: 10387312
     simulation-distance: default
