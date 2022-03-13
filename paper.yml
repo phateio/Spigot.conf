@@ -8,7 +8,7 @@
 # Discord: https://discord.gg/papermc
 # IRC: #paper @ irc.esper.net ( https://webchat.esper.net/?channels=paper ) 
 # Website: https://papermc.io/ 
-# Docs: https://paper.readthedocs.org/ 
+# Docs: https://docs.papermc.io/ 
 
 config-version: 25
 messages:
@@ -70,6 +70,7 @@ settings:
   log-player-ip-addresses: true
   loggers:
     deobfuscate-stacktraces: true
+    use-rgb-for-named-text-colors: true
   max-joins-per-tick: 3
   max-player-auto-save-per-tick: -1
   player-auto-save-rate: -1
