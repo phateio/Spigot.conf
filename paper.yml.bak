@@ -35,6 +35,7 @@ settings:
     global-max-chunk-send-rate: -1.0
     enable-frustum-priority: false
     global-max-chunk-load-rate: -1.0
+    player-max-chunk-load-rate: -1.0
     player-max-concurrent-loads: 20.0
     global-max-concurrent-loads: 500.0
   packet-limiter:
@@ -120,6 +121,7 @@ timings:
   - web-services.token
   history-interval: 300
   history-length: 3600
+  really-enabled: false
   server-name: Unknown Server
   server-name-privacy: false
   url: https://timings.aikar.co/
