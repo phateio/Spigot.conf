@@ -10,7 +10,7 @@
 # Website: https://papermc.io/ 
 Docs: https://docs.papermc.io/ 
 
-config-version: 25
+config-version: 26
 messages:
   kick:
     authentication-servers-down: ''
@@ -139,7 +139,7 @@ world-settings:
     alt-item-despawn-rate:
       enabled: false
       items:
-        COBBLESTONE: 300
+        cobblestone: 300
     anti-xray:
       chunk-edge-mode: 2
       enabled: false
