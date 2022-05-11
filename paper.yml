@@ -10,7 +10,7 @@
 # Website: https://papermc.io/ 
 # Docs: https://docs.papermc.io/ 
 
-config-version: 26
+config-version: 27
 messages:
   kick:
     authentication-servers-down: ''
@@ -314,10 +314,16 @@ world-settings:
       skeletons: false
     monster-spawn-max-light-level: -1
     door-breaking-difficulty:
-      zombie:
-      - HARD
       vindicator:
       - NORMAL
+      - HARD
+      zombie:
+      - HARD
+      zombie_villager:
+      - HARD
+      husk:
+      - HARD
+      zombified_piglin:
       - HARD
     nether-ceiling-void-damage-height: 0
     non-player-arrow-despawn-rate: -1
@@ -333,6 +339,7 @@ world-settings:
     portal-search-vanilla-dimension-scaling: true
     prevent-moving-into-unloaded-chunks: false
     prevent-tnt-from-moving-in-water: false
+    redstone-implementation: eigencraft
     remove-corrupt-tile-entities: false
     seed-based-feature-search: true
     seed-based-feature-search-loads-chunks: false
@@ -370,7 +377,6 @@ world-settings:
     unsupported-settings:
       fix-invulnerable-end-crystal-exploit: true
     update-pathfinding-on-block-update: true
-    use-faster-eigencraft-redstone: true
     use-vanilla-world-scoreboard-name-coloring: false
     viewdistances:
       no-tick-view-distance: -1
