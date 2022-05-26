@@ -75,6 +75,7 @@ settings:
   max-joins-per-tick: 3
   max-player-auto-save-per-tick: -1
   player-auto-save-rate: -1
+  proxy-protocol: false
   region-file-cache-size: 256
   save-empty-scoreboard-teams: false
   send-full-pos-for-hard-colliding-entities: true
