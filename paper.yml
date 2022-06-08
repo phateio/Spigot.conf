@@ -77,6 +77,7 @@ settings:
   player-auto-save-rate: -1
   proxy-protocol: false
   region-file-cache-size: 256
+  resolve-selectors-in-books: false
   save-empty-scoreboard-teams: false
   send-full-pos-for-hard-colliding-entities: true
   spam-limiter:
@@ -374,7 +375,9 @@ world-settings:
           validatenearbypoi: -1
     tnt-entity-height-nerf: 0
     tracker-update-distance: 1.0
-    treasure-maps-return-already-discovered: false
+    treasure-maps-find-already-discovered:
+      villager-trade: false
+      loot-tables: default
     unsupported-settings:
       fix-invulnerable-end-crystal-exploit: true
     update-pathfinding-on-block-update: true
