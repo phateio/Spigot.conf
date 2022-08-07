@@ -76,7 +76,7 @@ world-settings:
       misc: 16
       monsters: 32
       raiders: 48
-      tick-inactive-villagers: true
+      tick-inactive-villagers: false
       villagers: 32
       villagers-active-for-panic: true
       villagers-work-immunity-after: 100
@@ -98,9 +98,9 @@ world-settings:
     entity-tracking-range:
       animals: 48
       misc: 32
-      monsters: 48
+      monsters: 64
       other: 64
-      players: 48
+      players: 144
     growth:
       bamboo-modifier: 100
       beetroot-modifier: 100
@@ -124,6 +124,7 @@ world-settings:
       wheat-modifier: 100
     hanging-tick-frequency: 100
     hopper-amount: 1
+    hopper-can-load-chunks: false
     hunger:
       combat-exhaustion: 0.1
       jump-sprint-exhaustion: 0.2
