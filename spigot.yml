@@ -64,6 +64,9 @@ stats:
   forced-stats: {}
 world-settings:
   default:
+    unload-frozen-chunks: false
+    seed-trialchambers: 94251327
+    seed-trailruins: 83469867
     arrow-despawn-rate: 1200
     below-zero-generation-in-existing-chunks: true
     dragon-death-sound-radius: 0
@@ -96,12 +99,15 @@ world-settings:
         villagers-for: 100
         villagers-max-per-tick: 4
     entity-tracking-range:
+      display: 128
       animals: 48
       misc: 32
       monsters: 64
       other: 64
       players: 144
     growth:
+      pitcherplant-modifier: 100
+      torchflower-modifier: 100
       bamboo-modifier: 100
       beetroot-modifier: 100
       cactus-modifier: 100

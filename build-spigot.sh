@@ -2,6 +2,7 @@
 # Usage: ./build.sh --rev 1.12
 
 set -e
+echo 1000 > /proc/$$/oom_score_adj
 
 mkdir -p workspace
 pushd workspace

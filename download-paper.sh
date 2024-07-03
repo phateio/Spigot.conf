@@ -1,18 +1,25 @@
 #!/bin/bash
 
 set -e
+echo 1000 > /proc/$$/oom_score_adj
 
-PAPER_VERSION=${*:-lastSuccessfulBuild}
-FILENAME=paperclip-${PAPER_VERSION}.jar
-TEMPFILE=$(mktemp).jar
+MC_VERSION=1.21
+PAPER_VERSION=${*:-latest}
 
-[[ "${PAPER_VERSION}" -eq "lastSuccessfulBuild" ]] && FILENAME=paperclip.jar
-curl -fL "https://papermc.io/ci/job/Paper-1.15/${PAPER_VERSION}/artifact/${FILENAME}" > ${TEMPFILE}
+if [[ "${PAPER_VERSION}" -eq "latest" ]]; then
+  PAPER_VERSION=$(curl -fsS "https://papermc.io/api/v2/projects/paper/versions/${MC_VERSION}" | jq .builds[-1])
+fi
+echo ${PAPER_VERSION}
 
-PAPER_VERSION=$(java -jar ${TEMPFILE} --version | tail -n 1)
-PAPER_VERSION=${PAPER_VERSION#git-Paper-}
-FILENAME=paperclip-${PAPER_VERSION}.jar
+FILENAME=paper-${MC_VERSION}-${PAPER_VERSION}.jar
+# TEMPFILE=$(mktemp).jar
+
+curl -fL "https://papermc.io/api/v2/projects/paper/versions/${MC_VERSION}/builds/${PAPER_VERSION}/downloads/${FILENAME}" > ${FILENAME}
+
+# PAPER_VERSION=$(java -jar ${TEMPFILE} --version | tail -n 1)
+# PAPER_VERSION=${PAPER_VERSION#git-Paper-}
+# FILENAME=paper-${MC_VERSION}-${PAPER_VERSION}.jar
 
 echo "Downloaded ${FILENAME}"
-mv ${TEMPFILE} ${FILENAME}
-ln -sf ${FILENAME} paperclip.jar
+# mv ${TEMPFILE} ${FILENAME}
+ln -sf ${FILENAME} paper-${MC_VERSION}.jar
