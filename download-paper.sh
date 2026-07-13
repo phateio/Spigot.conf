@@ -1,25 +1,20 @@
-#!/bin/bash
+#!/bin/sh
 
 set -e
 echo 1000 > /proc/$$/oom_score_adj
 
-MC_VERSION=1.21
-PAPER_VERSION=${*:-latest}
+MC_VERSION=26.2
+PAPER_BUILD=${*:-latest}
 
-if [[ "${PAPER_VERSION}" -eq "latest" ]]; then
-  PAPER_VERSION=$(curl -fsS "https://papermc.io/api/v2/projects/paper/versions/${MC_VERSION}" | jq .builds[-1])
-fi
-echo ${PAPER_VERSION}
+API="https://fill.papermc.io/v3/projects/paper/versions/${MC_VERSION}/builds/${PAPER_BUILD}"
+BUILD_INFO=$(mktemp)
+trap 'rm -f "${BUILD_INFO}"' EXIT
+curl -fsS "${API}" -o "${BUILD_INFO}"
 
-FILENAME=paper-${MC_VERSION}-${PAPER_VERSION}.jar
-# TEMPFILE=$(mktemp).jar
+DOWNLOAD_URL=$(jq -r '.downloads."server:default".url' "${BUILD_INFO}")
+FILENAME=$(jq -r '.downloads."server:default".name' "${BUILD_INFO}")
 
-curl -fL "https://papermc.io/api/v2/projects/paper/versions/${MC_VERSION}/builds/${PAPER_VERSION}/downloads/${FILENAME}" > ${FILENAME}
-
-# PAPER_VERSION=$(java -jar ${TEMPFILE} --version | tail -n 1)
-# PAPER_VERSION=${PAPER_VERSION#git-Paper-}
-# FILENAME=paper-${MC_VERSION}-${PAPER_VERSION}.jar
+curl -fL "${DOWNLOAD_URL}" -o "${FILENAME}"
+ln -sf "${FILENAME}" "paper-${MC_VERSION}.jar"
 
 echo "Downloaded ${FILENAME}"
-# mv ${TEMPFILE} ${FILENAME}
-ln -sf ${FILENAME} paper-${MC_VERSION}.jar

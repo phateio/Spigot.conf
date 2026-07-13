@@ -1,0 +1,37 @@
+server.basics:
+  description: Basic permissions for My Cool Server.
+  default: true
+  children:
+    minecraft.command.seed: true
+    minecraft.command.banlist: true
+    bukkit.command.tps: true
+    topics.rules: true
+    topics.general: true
+    multiverse.core.info: true
+    multiverse.core.list.worlds: true
+    multiverse.core.spawn.self.*: true
+    coreprotect.inspect: true
+    coreprotect.lookup: true
+    residence.command.contract.subzone: true
+    residence.command.expand.subzone: true
+    residence.command.unstuck: true
+    residence.randomtp: false
+    residence.tpdelaybypass: true
+    lagg.check: true
+    lagg.chunk: true
+    lagg.tps: true
+    mcbans.announce: true
+    mcbans.lookup.player: true
+    mcbans.lookup.alt: true
+    discordsrv.unlink: true
+    discordsrv.linked.others: true
+server.admin:
+  description: Admin permissions for My Cool Server.
+  default: op
+  children:
+    mv.bypass.gamemode.*: true
+    lagg.clear: false
+    lagg.area: false
+    lagg.killmobs: false
+    mcbans.ban.global: false
+    honeypot.create: true
